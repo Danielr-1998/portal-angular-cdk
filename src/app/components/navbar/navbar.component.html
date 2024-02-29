@@ -6,7 +6,32 @@
         <img src="/assets/svg/dog-breed-svgrepo-com.svg" class="h-8" alt="Flowbite Logo" />
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Orion site</span>
     </a>
-    <div class="flex md:order-2">
+      <div class="inline-flex items-center justify-center">
+        <label class="font-medium peer-disabled:opacity-70 text-xs flex items-center" for="switch-5">
+          <div class="relative">
+            <input id="switch-5" class="peer sr-only" type="checkbox" checked="" name="switch">
+            <div
+              class="block cursor-pointer rounded-full border border-slate-200 bg-slate-50 transition peer-checked:border-blue-700 peer-checked:bg-blue-700 peer-disabled:cursor-not-allowed peer-disabled:border-slate-100 peer-disabled:bg-slate-100 h-6 w-12">
+            </div>
+            <div
+              class="absolute top-0.5 cursor-pointer rounded-full border border-slate-200 bg-blue-700 transition peer-checked:translate-x-5 peer-checked:border-blue-700 peer-checked:bg-white peer-disabled:cursor-not-allowed peer-disabled:border-slate-400 peer-disabled:bg-slate-400 left-[3px] size-5 peer-checked:left-[5px]">
+            </div>
+            <div class="pointer-events-none invisible absolute left-3 top-1/2 size-[18px] -translate-x-1/2 -translate-y-1/2 cursor-pointer overflow-hidden stroke-white peer-checked:visible peer-disabled:cursor-not-allowed peer-disabled:stroke-slate-400">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="size-[18px] stroke-inherit">
+                <path d="M6 12.8L9.42857 16L18 8"></path>
+              </svg>
+            </div>
+            <div class="absolute right-1 top-1/2 size-[18px] -translate-y-1/2 cursor-pointer overflow-hidden stroke-blue-700 peer-checked:invisible peer-disabled:cursor-not-allowed peer-disabled:stroke-slate-400">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="size-[18px] stroke-inherit">
+                <path d="m12 4-8 8m8 0L4 4"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="ml-2 whitespace-nowrap text-xs font-medium leading-none text-black">Dark Mode</span>
+        </label>
+      </div>
+
+      <div class="flex md:order-2">
       <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false" class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1">
         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
@@ -70,5 +95,4 @@
       </div>
     </div>
   </nav>
-  
   

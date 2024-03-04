@@ -6,6 +6,10 @@ import { BoardsComponent } from './pages/boards/boards.component';
 import { CatalogoComponent } from './pages/catalogo/catalogo.component';
 export const routes: Routes = [
     {
+        path: '',
+        component:HomeComponent
+    },
+    {
         path: 'home',
         component:HomeComponent
     },

@@ -2,7 +2,7 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
-
+<div>
 
 <div class="first hero"  cdkDrag>
   <img class="hero-profile-img" src="/assets/svg/Multi-Cloud Networking.jpeg" alt="">
@@ -165,44 +165,7 @@
     </div>
 </div>
 
-<cdk-accordion>
-    <cdk-accordion-item #accordionMenu="cdkAccordionItem">
-      <button class="w-full py-1 px-2 flex justify-between items-center" type="button" (click)="accordionMenu.toggle()">
-        My workspace
-      </button>
-      <div [style.display]="accordionMenu.expanded ? '' : 'none' ">
-        <ul class="ml-2 flex flex-col text-sm text-gray-700">
-          <li>
-            <a class="block py-1 px-3"
-              > Boards</a
-            >
-          </li>
-          <li>
-            <a class="block py-1 px-3"
-              > Highlights</a
-            >
-          </li>
-          <li>
-            <a class="block py-1 px-3"
-              >Views</a
-            >
-          </li>
-          <li>
-            <a class="block py-1 px-3"
-              >Members</a
-            >
-          </li>
-          <li>
-            <a class="block py-1 px-3"
-              >Settings</a
-            >
-          </li>
-        </ul>
-      </div>
-    </cdk-accordion-item>
-  </cdk-accordion>
-
-  
+</div>
  
   <app-footer></app-footer>
     

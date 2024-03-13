@@ -4,6 +4,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { LabsComponent } from './pages/labs/labs.component';
 import { BoardsComponent } from './pages/boards/boards.component';
 import { CatalogoComponent } from './pages/catalogo/catalogo.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
 export const routes: Routes = [
     {
         path: '',
@@ -24,6 +25,10 @@ export const routes: Routes = [
     {
         path: 'catalogo',
         component:CatalogoComponent
+    },
+    {
+        path: 'dashboard',
+        component:DashboardComponent
     },
 ];
         
